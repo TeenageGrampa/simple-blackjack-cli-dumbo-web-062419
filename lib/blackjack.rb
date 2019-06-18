@@ -40,7 +40,8 @@ def hit?(current_total)
 end
 
 def invalid_command
-  
+  if input !== "h" || "s"
+    puts 
 end
 
 #####################################################
